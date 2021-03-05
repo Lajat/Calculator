@@ -7,16 +7,23 @@ body {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  font-family: 'Share Tech Mono'; }
+  font-family: 'Share Tech Mono';
+  background-image: url('https://wallpaperaccess.com/full/187161.jpg');
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  background-size: cover;
+ }
 
 .App {
   height: 400px;
   width: 300px;
   perspective: 0 200px;
   background: #EBEBEB;
-  transform: scale(0.8) rotateX(45deg) rotateZ(45deg);
+  transform: scale(0.8) rotateX(48deg) rotateZ(48deg);
   transition: transform .5s ease .5s;
-  position: relative; }
+  position: relative;
+  top: -12px;
+ }
   .App:hover {
     transform: scale(1.5) rotateX(0) rotateZ(0); }
     .App:hover::before {
@@ -70,7 +77,6 @@ body {
   font-size: 24px;
   position: relative; }
   .Display::after {
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f1f1f1+50,e1e1e1+51,f6f6f6+100;White+Gloss+%231 */
     background: white;
     /* Old browsers */
     background: -moz-linear-gradient(top, white 0%, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%);
